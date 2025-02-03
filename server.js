@@ -3,10 +3,9 @@ const app = express();
 
 app.get("/", (req, res) => {
   res.json({
-    message: "Hi from the Desktop",
+    message: "Hi Adnan Here, you have hit the default route",
     status: "success",
   });
-  console.log("Default route hit");
 });
 
 const PORT = process.env.PORT || 3000;
